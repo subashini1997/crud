@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQxakB_5npG2SJ-AIqOrUvDFIYlu2KkgdGQ&usqp=CAU");
+  background-size: cover;
+
+  
+}
+.recipe-picture{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border: 8px solid goldenrod;
+}
+.body{
+  background-color: bisque;
+  font-family: Roboto;
+}
+.recipe-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
